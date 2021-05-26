@@ -35,7 +35,6 @@ Model1 = lm(DATA$Points ~ DATA$`Time to Shoot (s)`)
 Model2 = lm(DATA$Points ~ DATA$`Eyes Open`)
 Model3 = lm(DATA$Points ~ DATA$Blinks)
 
-print("YO YO YO")
 #summary(Model1)
 #summary(Model2)
 #summary(Model3)
